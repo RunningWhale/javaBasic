@@ -1,5 +1,6 @@
 package day02;
 
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
