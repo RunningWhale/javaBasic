@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>bmiServlet</servlet-name>
+        <servlet-class>org.example.controller.BmiServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bmiServlet</servlet-name>
+        <url-pattern>/bmi</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>bmiPrinterServlet</servlet-name>
+        <servlet-class>org.example.controller.BmiPrintServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bmiPrinterServlet</servlet-name>
+        <url-pattern>/bmiPrinter</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BmiAjax</servlet-name>
+        <servlet-class>org.example.controller.BmiAjax</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BmiAjax</servlet-name>
+        <url-pattern>/bmiAjax</url-pattern>
+    </servlet-mapping>
+</web-app>
