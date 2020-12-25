@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    引用类型的set注入-->
+    <bean id="school" class="org.example.set注入引用类型.School">
+        <property name="name" value="上海师范大学谢晋影视艺术学院"></property>
+        <property name="address" value="上海"></property>
+    </bean>
+    <bean id="mystudent" class="org.example.set注入引用类型.Student">
+        <property name="name" value="范冰冰"></property>
+        <property name="age" value="20"></property>
+        <property name="school" ref="school"></property>
+    </bean>
+</beans>

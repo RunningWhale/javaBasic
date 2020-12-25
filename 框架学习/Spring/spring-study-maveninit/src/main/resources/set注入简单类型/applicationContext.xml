@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--通过set方法注入，就是给属性赋值。spring规定简单类型：基本数据类型和string都是简单类型，property标签赋值-->
+    <bean id="mystudent" class="org.example.set注入简单类型.Student">
+        <property name="name" value="赵丽颖"></property>
+        <property name="age" value="18"></property>
+    </bean>
+<!--    给非自定义类对象赋值-->
+    <bean id="mydate" class="java.util.Date">
+        <property name="time" value="9596232323"></property>
+    </bean>
+</beans>

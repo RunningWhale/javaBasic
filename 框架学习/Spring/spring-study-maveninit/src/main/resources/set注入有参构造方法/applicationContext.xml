@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--spring调用类的有参构造方法时，在创建对象的同时，在构造方法中给属性赋值 -->
+    <!--    name:构造方法形参名
+    index:构造方法参数位置，从左往右0，1，2...
+    value:构造方法形参是简单类型用value
+    ref:构造方法形参是引用类型用ref-->
+
+    <!--    使用name属性-->
+    <!--<bean id="myStudent" class="org.example.set注入有参构造方法.Student">
+        <constructor-arg name="school" ref="mySchool"></constructor-arg>
+        <constructor-arg name="name" value="李晨"></constructor-arg>
+        <constructor-arg name="age" value="25"></constructor-arg>
+    </bean>-->
+
+    <!--    使用index属性-->
+    <!--<bean id="myStudent" class="org.example.set注入有参构造方法.Student">
+        <constructor-arg index="0" value="李晨"></constructor-arg>
+        <constructor-arg index="1" value="25"></constructor-arg>
+        <constructor-arg index="2" ref="mySchool"></constructor-arg>
+    </bean>-->
+    <!--    省略index-->
+    <bean id="myStudent" class="org.example.set注入有参构造方法.Student">
+        <constructor-arg value="李晨"></constructor-arg>
+        <constructor-arg value="25"></constructor-arg>
+        <constructor-arg ref="mySchool"></constructor-arg>
+    </bean>
+    <bean id="mySchool" class="org.example.set注入有参构造方法.School">
+        <property name="name" value="北京群星表演艺术学校"></property>
+        <property name="address" value="北京"></property>
+    </bean>
+</beans>
