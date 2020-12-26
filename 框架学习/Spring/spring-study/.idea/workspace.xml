@@ -20,88 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ddf618d-1fea-4522-ab34-ce38358af655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/java/org/example/多文件配置/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/java/org/example/多文件配置/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/java/org/example/自动注入/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/java/org/example/自动注入/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/resources/多文件配置/spring-school.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/resources/多文件配置/spring-student.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/resources/多文件配置/total.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/main/resources/自动注入/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/test/java/org/example/多文件配置/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/test/java/org/example/自动注入/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-study-maveninit/src/test/untitled反对犯得上但是/untitled反对犯得上但是.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/SomeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/impl/SomeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/set注入引用类型/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/set注入引用类型/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/set注入有参构造方法/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/set注入有参构造方法/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/set注入简单类型/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/多文件配置/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/多文件配置/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/自动注入/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/java/org/example/自动注入/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/resources/set注入引用类型/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/resources/set注入有参构造方法/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/resources/set注入简单类型/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/resources/多文件配置/spring-school.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/resources/多文件配置/spring-student.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/resources/多文件配置/total.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/main/resources/自动注入/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/test/java/org/example/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/test/java/org/example/set注入引用类型/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/test/java/org/example/set注入有参构造方法/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/test/java/org/example/set注入简单类型/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/test/java/org/example/多文件配置/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/src/test/java/org/example/自动注入/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xml实现di/xml实现di.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-study-maveninit/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-study-maveninit/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-study-maveninit/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-study-maveninit/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-study-maveninit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-study-maveninit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-study-maveninit/spring-study-maveninit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-study-maveninit/spring-study-maveninit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-study-maveninit/target/classes/META-INF/spring-study-maveninit.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-study-maveninit/target/test-classes/META-INF/spring-study-maveninit.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_study_war_exploded.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/java/org/example/Component组件使用/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/java/org/example/Resource引用类型赋值/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/java/org/example/Resource引用类型赋值/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/java/org/example/引用类型byName注入/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/java/org/example/引用类型byName注入/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/java/org/example/引用类型赋值/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/java/org/example/引用类型赋值/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/java/org/example/简单类型赋值/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/resources/Component组件使用/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/resources/引用类型byName注入/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/resources/引用类型赋值/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/main/resources/简单类型赋值/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/test/java/Component组件使用/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/test/java/引用类型byName注入/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/test/java/引用类型赋值/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/src/test/java/简单类型赋值/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/注解实现di/注解实现di.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-aop-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-aspects-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-beans-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-context-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-context-support-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-core-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-expression-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-instrument-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-jdbc-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-jms-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-messaging-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-orm-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-oxm-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-study.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml实现di/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml实现di/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml实现di/xml实现di.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xml实现di/xml实现di.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +56,14 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -143,38 +94,112 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xml实现di/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/注解实现di/src/main/java/org/example/Resource引用类型赋值" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.20410156" />
     <property name="project.structure.side.proportion" value="0.20689656" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\23894\Documents\Projects\git仓库\javaBasic\框架学习\Spring\spring-study\注解实现di\src\main\resources\Component组件使用" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.引用类型赋值" />
+      <recent name="org.example.简单类型赋值" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\23894\Documents\Projects\git仓库\javaBasic\框架学习\Spring\spring-study\注解实现di\src\main\java\org\example\Resource引用类型赋值" />
       <recent name="C:\Users\23894\Documents\Projects\git仓库\javaBasic\框架学习\Spring\spring-study\xml实现di\src\test\java" />
       <recent name="C:\Users\23894\Documents\Projects\git仓库\javaBasic\框架学习\Spring\spring-study\xml实现di\src\main\resources" />
       <recent name="C:\Users\23894\Documents\Projects\git仓库\javaBasic\框架学习\Spring\spring-study\xml实现di\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xml实现di" />
+  <component name="RunManager" selected="JUnit.MyTest (1)">
+    <configuration name="MyTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="注解实现di" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.多文件配置.*" />
+          <option name="PATTERN" value="引用类型byName注入.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.多文件配置" />
-      <option name="MAIN_CLASS_NAME" value="org.example.多文件配置.MyTest" />
+      <option name="PACKAGE_NAME" value="引用类型byName注入" />
+      <option name="MAIN_CLASS_NAME" value="引用类型byName注入.MyTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="注解实现di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="简单类型赋值.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="简单类型赋值" />
+      <option name="MAIN_CLASS_NAME" value="简单类型赋值.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="注解实现di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="引用类型赋值.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="引用类型赋值" />
+      <option name="MAIN_CLASS_NAME" value="引用类型赋值.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test01 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="注解实现di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="简单类型赋值.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="简单类型赋值" />
+      <option name="MAIN_CLASS_NAME" value="简单类型赋值.MyTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="注解实现di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="引用类型byName注入.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="引用类型byName注入" />
+      <option name="MAIN_CLASS_NAME" value="引用类型byName注入.MyTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest (1)" />
+        <item itemvalue="JUnit.MyTest.test01" />
         <item itemvalue="JUnit.MyTest" />
+        <item itemvalue="JUnit.MyTest.test01 (2)" />
+        <item itemvalue="JUnit.MyTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608972661399</updated>
-      <workItem from="1608972664273" duration="360000" />
+      <workItem from="1608972664273" duration="10961000" />
     </task>
     <servers />
   </component>
@@ -207,21 +232,65 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="6" key="#Project_Structure" timestamp="1608972666789">
+    <state x="249" y="6" key="#Project_Structure" timestamp="1608982445518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="6" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1608972666789" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1608972788263">
+    <state x="249" y="6" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1608982445518" />
+    <state x="570" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1608981420809">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1608972788263" />
-    <state x="270" y="76" key="SettingsEditor" timestamp="1608973023458">
+    <state x="570" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1608981420809" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1608973275418">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="270" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1608973023458" />
-    <state x="178" y="42" key="new project wizard" timestamp="1608972742113">
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1608973275418" />
+    <state width="1493" height="298" key="GridCell.Tab.0.bottom" timestamp="1608986998691">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="178" y="42" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1608972742113" />
+    <state width="1493" height="298" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608986998691" />
+    <state width="1493" height="298" key="GridCell.Tab.0.center" timestamp="1608986998691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608986998691" />
+    <state width="1493" height="298" key="GridCell.Tab.0.left" timestamp="1608986998691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608986998691" />
+    <state width="1493" height="298" key="GridCell.Tab.0.right" timestamp="1608986998691">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608986998691" />
+    <state width="1493" height="337" key="GridCell.Tab.1.bottom" timestamp="1608986998682">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608986998682" />
+    <state width="1493" height="337" key="GridCell.Tab.1.center" timestamp="1608986998681">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1608986998681" />
+    <state width="1493" height="337" key="GridCell.Tab.1.left" timestamp="1608986998681">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1608986998681" />
+    <state width="1493" height="337" key="GridCell.Tab.1.right" timestamp="1608986998682">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1608986998682" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1608982649624">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1608982649624" />
+    <state x="9" y="47" width="996" height="707" key="SettingsEditor" timestamp="1608977415652">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="9" y="47" width="996" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1608977415652" />
+    <state x="178" y="42" key="new project wizard" timestamp="1608973291861">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="178" y="42" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1608973291861" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608977089206">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1608977089206" />
   </component>
 </project>

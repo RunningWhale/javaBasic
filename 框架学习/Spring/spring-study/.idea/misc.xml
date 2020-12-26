@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/xml实现di/pom.xml" />
+        <option value="$PROJECT_DIR$/注解实现di/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="xml实现di" />
+        <module name="注解实现di" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="xml实现di" target="8" />
+      <module name="xml实现di" target="1.8" />
+      <module name="注解实现di" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
