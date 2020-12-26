@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--主配置文件，包含其他配置文件，一般不在这里定义对象-->
+    <!--    <import resource="classpath:多文件配置/spring-student.xml"></import>-->
+    <!--    <import resource="classpath:多文件配置/spring-school.xml"></import>-->
+<!--    可以使用通配符*，表示任意字符，节省代码量，注意主配置文件不能被包含在通配符范围内-->
+    <import resource="classpath:多文件配置/spring-*.xml"></import>
+</beans>

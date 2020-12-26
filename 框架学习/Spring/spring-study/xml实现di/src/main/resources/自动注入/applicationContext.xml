@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    <bean id="myStudent" class="org.example.自动注入.Student" autowire="byName">-->
+    <bean id="myStudent" class="org.example.自动注入.Student" autowire="byType">
+        <!--        <constructor-arg name="name" value="郑恺"></constructor-arg>-->
+        <!--        <constructor-arg name="age" value="25"></constructor-arg>-->
+        <!--        <constructor-arg name="school" ref="mySchool"></constructor-arg>-->
+        <!--1、引用类型自动注入按名称注入byName,java类中引用类型的属性名和spring容器中的名称必须一样，而且配置文件中此对象只能用set注入，构造方法注入报错-->
+        <property name="name" value="郑恺"></property>
+        <property name="age" value="25"></property>
+        <!--2、byType按类型注入，java类应用类型的数据类型和spring配置文件中<bean>的class属性是同源关系才行
+        同源关系：
+        java类引用数据和bean的class是一个类
+        java类引用数据和bean的class是父子类关系
+        java类引用数据和bean的class是接口实现关系-->
+    </bean>
+    <bean id="mySchool" class="org.example.自动注入.School">
+        <constructor-arg name="name" value="上海戏剧学院表演系"></constructor-arg>
+        <constructor-arg name="address" value="上海"></constructor-arg>
+    </bean>
+
+</beans>
