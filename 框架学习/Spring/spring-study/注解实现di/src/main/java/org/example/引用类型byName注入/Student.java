@@ -1,9 +1,9 @@
 package org.example.引用类型byName注入;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
-import javax.annotation.Resource;
 
 
 @Component("myStudent")
@@ -12,7 +12,9 @@ public class Student {
     private String name;
     @Value("20")
     private int age;
-@Resource
+    @Autowired
+//    @Qualifier(value = "mySchool")
+    @Qualifier("mySchool")
     private School school;
 
     @Override
@@ -43,6 +45,7 @@ public class Student {
     public School getSchool() {
         return school;
     }
+
     public void setSchool(School school) {
         this.school = school;
     }

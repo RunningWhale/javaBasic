@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/xml实现di/pom.xml" />
         <option value="$PROJECT_DIR$/注解实现di/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-aspectJ/pom.xml" />
       </list>
     </option>
   </component>

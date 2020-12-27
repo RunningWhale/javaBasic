@@ -5,13 +5,18 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
+
 @Component("myStudent")
 public class Student {
     @Value("杨颖")
     private String name;
     @Value("20")
     private int age;
+//    使用byName如下
+//    @Resource(name = "mySchool")
 
+    @Resource
     private School school;
 
     @Override
@@ -42,6 +47,7 @@ public class Student {
     public School getSchool() {
         return school;
     }
+
     @Autowired
     @Qualifier("mySchool")
     public void setSchool(School school) {

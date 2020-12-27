@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/aop-aspectJ/aop-aspectJ.iml" filepath="$PROJECT_DIR$/aop-aspectJ/aop-aspectJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop-leadin/aop-leadin.iml" filepath="$PROJECT_DIR$/aop-leadin/aop-leadin.iml" />
       <module fileurl="file://$PROJECT_DIR$/xml实现di/xml实现di.iml" filepath="$PROJECT_DIR$/xml实现di/xml实现di.iml" />
       <module fileurl="file://$PROJECT_DIR$/注解实现di/注解实现di.iml" filepath="$PROJECT_DIR$/注解实现di/注解实现di.iml" />
     </modules>
