@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hello-SpringMVC/hello-SpringMVC.iml" filepath="$PROJECT_DIR$/hello-SpringMVC/hello-SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/receiveparam/receiveparam.iml" filepath="$PROJECT_DIR$/receiveparam/receiveparam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/return/return.iml" filepath="$PROJECT_DIR$/return/return.iml" />
+    </modules>
+  </component>
+</project>

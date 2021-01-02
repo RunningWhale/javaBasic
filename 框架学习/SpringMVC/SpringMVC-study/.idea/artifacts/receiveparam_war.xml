@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="receiveparam:war">
+    <output-path>$PROJECT_DIR$/receiveparam/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>receiveparam</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="receiveparam-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="receiveparam:war exploded" />
+    </root>
+  </artifact>
+</component>
