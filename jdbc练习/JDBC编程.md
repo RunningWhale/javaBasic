@@ -3,7 +3,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
+注册mysql驱动
+创建连接对象
+创建操作命令对象
+执行sql
+处理结果集
 public class Demo01 {
     public static void main(String[] args) throws Exception {
         //1、创建数据库连接
