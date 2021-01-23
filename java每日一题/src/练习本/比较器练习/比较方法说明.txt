@@ -1,0 +1,8 @@
+1、直接类上继承Comparable接口，实现CompareTo方法，Arrays.sort(数组)
+2、用Comparator比较器进行比较
+ Arrays.sort(students, new Comparator<Student>() {
+              @Override
+              public int compare(Student o1, Student o2) {
+                  return o2.getAge()-o1.getAge();
+              }
+          });
